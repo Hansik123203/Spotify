@@ -2,6 +2,49 @@
 
 ## Overview
 This Power BI dashboard provides insights into Spotify data, including streaming trends, top artists, top genres, and user engagement metrics. The dashboard leverages various data transformations, DAX measures, and a custom Date Table to enable effective analysis.
+#### Albums Analysis
+- **Total Albums Played Over Time** – Track how album listening trends change over months and years.
+- **Number of Albums Listened by Year** – Identify annual listening habits and volume (Find the Min and Max Albums in the view).
+- **Albums Played on Weekday & Weekend** – Identify the Pattern of music listening on weekdays and weekends.
+- **Top 5 Albums** – Identify the most played albums based on listening frequency.
+- **Latest Year vs Previous Year Analysis** – Compare album consumption between the latest and previous years, including:
+  - LY (Latest Year) vs PY (Previous Year) Trends
+  - YoY (Year-over-Year) Growth Analysis
+
+#### Artists Analysis
+- **Total Artists Played Over Time** – Track how artist listening trends evolve across months and years.
+- **Number of Artists Listened by Year** – Identify annual listening habits and artist diversity (Find the Min and Max Artists in the view).
+- **Artists Played on Weekday & Weekend** – Identify the Pattern of music listening on weekdays and weekends.
+- **Top 5 Artists** – Identify the most played artists based on listening frequency.
+- **Latest Year vs Previous Year Analysis** – Compare artist engagement between the latest and previous years, including:
+  - LY (Latest Year) vs PY (Previous Year) Trends
+  - YoY (Year-over-Year) Growth Analysis
+
+#### Tracks Analysis
+- **Total Tracks Played Over Time** – Monitor how track listening trends change across months and years.
+- **Number of Tracks Listened by Year** – Identify annual listening habits and track diversity (Find the Min and Max Tracks in the view).
+- **Tracks Played on Weekday & Weekend** – Identify the Pattern of music listening on weekdays and weekends.
+- **Top 5 Tracks** – Identify the most played tracks based on listening frequency.
+- **Latest Year vs Previous Year Analysis** – Compare track engagement between the latest and previous years, including:
+  - LY (Latest Year) vs PY (Previous Year) Trends
+  - YoY (Year-over-Year) Growth Analysis
+
+#### Listening Patterns
+- **Listening Hours Analysis** – Identify peak listening times using a Heat Map that visualizes patterns across hours and days with color intensity.
+- **Average Listening Time (min) vs Track Frequency** – Use a Scatter Plot with Quadrant Analysis to categorize tracks based on:
+  - High Frequency & High Listening Time – Most engaging tracks 🎯
+  - Low Frequency & High Listening Time – Niche but impactful tracks
+  - High Frequency & Low Listening Time – Short & frequently played tracks
+  - Low Frequency & Low Listening Time – Less popular tracks
+
+#### Details Grid
+The report includes an interactive **Grid View** displaying key details such as Album Name, Artist Name, Track Name, and other relevant attributes.
+
+Key Features:
+1. **Grid View with Essential Fields** – Provides a structured and intuitive view of critical data points.
+2. **Drill Through Functionality** – Users can drill through from the main reports to explore detailed insights and export data to CSV.
+3. **Drill Down, Drill Up, and Hierarchy** – Supports hierarchical navigation for deeper data exploration.
+
 
 ## Data Cleaning Steps
 The data cleaning and transformation process in Power Query involved the following steps:
